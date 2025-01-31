@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const About = ({ data }) => {
   return (
-    <div className="p-5 mt-10 flex flex-col md:flex-row gap-10">
+    <div className="p-5 mt-20 flex flex-col md:flex-row gap-10">
       <motion.div
         className="w-full md:w-[50%]"
         initial={{ opacity: 0 }}

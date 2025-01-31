@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Contact = ({ data }) => {
   return (
-    <div className="flex justify-center items-center min-h-screen pt-28 relative z-0"> {/* Adjusted z-index */}
+    <div className="flex justify-center items-center mt-15 pt-10 relative z-0"> {/* Adjusted z-index */}
       <motion.div
         className="bg-gray-300 p-10 rounded-lg shadow-sky-950 shadow-2xl w-full sm:w-[90%] md:w-[60%] lg:w-[40%] z-10"
         initial={{ opacity: 0, y: -50 }}
