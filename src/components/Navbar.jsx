@@ -15,7 +15,7 @@ const Navbar = () => {
     setIsOpen(false);
   };
 
-  const resumeLink = "https://drive.google.com/file/d/1nA_X3fi6uHtFcQKusOXxzYMz8jfyeTd6/view?usp=drive_link";
+  const resumeLink = "https://drive.google.com/file/d/1T9SL0fiBAr4KM0PwW01iWA1q6Aw86bf7/view?usp=sharing";
 
   return (
     <motion.nav
