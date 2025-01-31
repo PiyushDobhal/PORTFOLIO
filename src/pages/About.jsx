@@ -18,7 +18,7 @@ const About = ({ data }) => {
           {data.profileSummary}
         </p>
       </motion.div>
-
+      
       <motion.div
         className="w-full md:w-[45%] p-2"
         initial={{ opacity: 0, y: 50 }}
