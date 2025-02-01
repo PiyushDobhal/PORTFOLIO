@@ -40,7 +40,7 @@ function App() {
   return (
     <Router basename={isGitHubPages ? '/PORTFOLIO' : '/'}>
       <motion.div {...fadeIn}>
-        <Navbar />
+        <Navbar data={resumeData}/>
       </motion.div>
       
       <Routes>
@@ -52,7 +52,7 @@ function App() {
       </Routes>
       
       <motion.div {...fadeIn}>
-        <Footer />
+        <Footer data={resumeData} />
       </motion.div>
     </Router>
   );

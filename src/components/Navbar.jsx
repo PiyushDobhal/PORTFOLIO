@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { FaEye } from "react-icons/fa"; // Importing eye icon
+import { FaEye } from "react-icons/fa"; 
 
-const Navbar = () => {
+const Navbar = ({data}) => {
   const [isOpen, setIsOpen] = useState(false);
   const [showPopup, setShowPopup] = useState(false);
 
@@ -14,8 +14,6 @@ const Navbar = () => {
   const closeSidebar = () => {
     setIsOpen(false);
   };
-
-  const resumeLink = "https://drive.google.com/file/d/1T9SL0fiBAr4KM0PwW01iWA1q6Aw86bf7/view?usp=sharing";
 
   return (
     <motion.nav
@@ -32,7 +30,7 @@ const Navbar = () => {
         {/* Resume Button (Icon for Desktop, Text for Mobile) */}
         <div className="relative flex items-center">
           <a
-            href={resumeLink}
+            href={data.resumeLink}
             target="_blank"
             rel="noopener noreferrer"
             className="text-white flex items-center gap-2 hover:text-amber-300 transition duration-300"

@@ -7,7 +7,8 @@ import Contact from "./Contact";
 import { pageTransition } from "../App";
 import dp from "../assets/dp.jpg";
 
-const basePath = import.meta.env.VITE_REACT_APP_IS_GITHUB_PAGES === 'true' ? '/PORTFOLIO' : '';
+const basePath =
+  import.meta.env.VITE_REACT_APP_IS_GITHUB_PAGES === "true" ? "/PORTFOLIO" : "";
 
 const Home = ({ data }) => {
   return (
@@ -65,7 +66,6 @@ const Home = ({ data }) => {
             </div>
           </div>
         </motion.div>
-
         <hr />
         <About data={data} />
         <br />
@@ -82,7 +82,6 @@ const Home = ({ data }) => {
           <Contact data={data} />
         </motion.div>
         <br />
-        
       </div>
     </>
   );

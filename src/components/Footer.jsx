@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Footer = () => {
+const Footer = ({data}) => {
   return (
     <motion.footer
       className="bg-gradient-to-r from-[#0c0c0c] to-[#1a1a1a] text-white p-6 text-center h-auto w-full mt-10 rounded-t-lg shadow-lg"
@@ -15,7 +15,7 @@ const Footer = () => {
         </p>
         <p className="flex flex-wrap justify-center space-x-4 text-sm sm:text-base">
           <a
-            href="http://www.linkedin.com/in/piyush-dobhal-b3a757309"
+            href={data.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:text-blue-500 transition-colors duration-300 mb-2 sm:mb-0"
@@ -24,7 +24,7 @@ const Footer = () => {
           </a>
           <span className="text-white">|</span>
           <a
-            href="https://github.com/PiyushDobhal"
+            href={data.github}
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:text-blue-500 transition-colors duration-300 mb-2 sm:mb-0"

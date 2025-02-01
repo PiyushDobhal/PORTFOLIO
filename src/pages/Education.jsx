@@ -67,7 +67,7 @@ const Education = ({ data }) => {
                 href={data.certifications.links[index].url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-500 hover:text-pink-300 ml-2"
+                className="ml-2"
               >
                 ⏭️
               </a>
