@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/PORTFOLIO/",
+  base: process.env.NODE_ENV === 'production' && window.location.hostname === 'piyushdobhal.github.io' ? '/PORTFOLIO/' : '/',
 });

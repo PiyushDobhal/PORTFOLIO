@@ -10,6 +10,10 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { resumeData } from "./Resumedata";
 
+
+const isGitHubPages = window.location.hostname === 'piyushdobhal.github.io';
+
+
 export const pageTransition = {
   initial: { opacity: 0, y: 50 },
   animate: { opacity: 1, y: 0, transition: { duration: 0.9, ease: "easeOut" } },
@@ -30,7 +34,7 @@ const parallaxEffect = {
 
 function App() {
   return (
-    <Router basename="/PORTFOLIO">
+    <Router basename={isGitHubPages ? '/PORTFOLIO' : '/'}>
       <motion.div {...fadeIn}>
         <Navbar />
       </motion.div>
