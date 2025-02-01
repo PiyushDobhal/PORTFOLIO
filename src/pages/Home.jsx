@@ -5,7 +5,7 @@ import Education from "./Education";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import { pageTransition } from "../App";
-import dp from "../assets/dp.jpg";
+
 
 
 const Home = ({ data }) => {
@@ -36,7 +36,7 @@ const Home = ({ data }) => {
 
           <div className="w-full flex flex-col items-center gap-6">
             <motion.img
-              src={dp}
+              src="/PORTFOLIO/assets/dp.jpg"
               alt="Profile"
               className="object-contain border-7 border-emerald-500 h-72 rounded-4xl shadow-lg transition-transform duration-500 ease-in-out transform hover:scale-110"
               whileHover={{ scale: 1.1, rotate: 3 }}
