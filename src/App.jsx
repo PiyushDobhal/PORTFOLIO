@@ -9,9 +9,7 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { resumeData } from "./Resumedata";
-
-
-const isGitHubPages = window.location.hostname === 'piyushdobhal.github.io';
+import { useState,useEffect } from "react";
 
 
 export const pageTransition = {
@@ -33,6 +31,12 @@ const parallaxEffect = {
 };
 
 function App() {
+
+  const [isGitHubPages, setIsGitHubPages] = useState(false);
+
+  useEffect(() => {
+    setIsGitHubPages(window.location.hostname === 'piyushdobhal.github.io');
+  }, []);
   return (
     <Router basename={isGitHubPages ? '/PORTFOLIO' : '/'}>
       <motion.div {...fadeIn}>

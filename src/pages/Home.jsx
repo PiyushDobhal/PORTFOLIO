@@ -7,8 +7,7 @@ import Contact from "./Contact";
 import { pageTransition } from "../App";
 import dp from "../assets/dp.jpg";
 
-const basePath = process.env.REACT_APP_IS_GITHUB_PAGES === 'true' ? '/PORTFOLIO' : '';
-
+const basePath = import.meta.env.VITE_REACT_APP_IS_GITHUB_PAGES === 'true' ? '/PORTFOLIO' : '';
 
 const Home = ({ data }) => {
   return (
