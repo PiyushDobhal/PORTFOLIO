@@ -30,7 +30,7 @@ const parallaxEffect = {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <motion.div {...fadeIn}>
         <Navbar />
       </motion.div>
