@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import { pageTransition } from "../App";
 import dp from "../assets/dp.jpg";
 
+
 const Home = ({ data }) => {
   return (
     <>
@@ -27,7 +28,7 @@ const Home = ({ data }) => {
 
             {/* Logo - Hidden on Mobile */}
             <img
-              src="/portfoliologo.webp"
+              src="/PORTFOLIO/portfoliologo.webp"
               alt="Portfolio Logo"
               className="hidden md:block mx-auto mt-6 w-32 h-32 rounded-full shadow-lg"
             />
