@@ -4,7 +4,7 @@ export const resumeData = {
   linkedin: "http://www.linkedin.com/in/piyush-dobhal-b3a757309",
   github: "https://github.com/PiyushDobhal",
   googleCloud: "https://www.cloudskillsboost.google/profile/badges",
-  resumeLink: "https://drive.google.com/file/d/1T9SL0fiBAr4KM0PwW01iWA1q6Aw86bf7/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1MxiUNDyP7TPHR7wZF9uZKWxot_IDL2dl/view?usp=sharing",
 
   education: [
     {
@@ -40,7 +40,8 @@ export const resumeData = {
       "Tailwind CSS",
       "Framer Motion",
       "Redux Toolkit",
-      "DSA in C++",
+      "Express JS",
+      "Node JS",
     ],
     tools: ["Visual Studio", "PyCharm", "Git", "GitHub"],
   },

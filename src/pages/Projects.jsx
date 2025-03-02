@@ -28,7 +28,7 @@ const Projects = ({ data }) => {
             whileTap={{ scale: 0.98 }}
             drag
             dragConstraints={{ top: 0, bottom: 0, left: 0, right: 0 }}
-            dragElastic={0.2}
+            dragElastic={0.7}
             whileHover={{
               scale: 1.05,
               rotate: 2,
