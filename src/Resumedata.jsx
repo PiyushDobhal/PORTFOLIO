@@ -4,7 +4,7 @@ export const resumeData = {
   linkedin: "http://www.linkedin.com/in/piyush-dobhal-b3a757309",
   github: "https://github.com/PiyushDobhal",
   googleCloud: "https://www.cloudskillsboost.google/profile/badges",
-  resumeLink: "https://drive.google.com/file/d/1MxiUNDyP7TPHR7wZF9uZKWxot_IDL2dl/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1MAXzx-mwnMUHgMYCYwreydiPH01BMcj7/view?usp=sharing",
 
   education: [
     {
@@ -28,7 +28,7 @@ export const resumeData = {
   ],
 
   profileSummary:
-    "Seeking Front-End Developer roles in a reputable organization with opportunities for learning and career growth.Passionate B.Tech ECE student with strong coding skills, extensive knowledge of communication systems, and experience in building scalable web applications.Continuously enhancing skills, staying updated with industry trends and technologies, and committed to delivering innovative solutions.Currently pursuing MERN Stack Development.",
+    "Targeting MERN Stack Developer roles in a reputed organization with opportunities for continuous learning and career advancement. A passionate B.Tech ECE graduate with strong coding skills, in-depth knowledge of communication systems, and full-stack development experience using the MERN stack. Proficient in building scalable web applications, with a commitment to staying updated with the latest technologies and delivering innovative solutions.",
 
   skills: {
     programming: [
@@ -42,6 +42,7 @@ export const resumeData = {
       "Redux Toolkit",
       "Express JS",
       "Node JS",
+      "MongoDB"
     ],
     tools: ["Visual Studio", "PyCharm", "Git", "GitHub"],
   },
