@@ -66,19 +66,9 @@ export const resumeData = {
       name: "NoProxy-Smart Attendance System",
       description:
         "A biometric attendance system integrating fingerprint and face recognition using ESP32-CAM, Arduino, and a full-stack web dashboard. Real-time attendance sync, hardware-software integration, and user management.",
-      tools: [
-        "React,",
-        "Tailwind CSS,",
-        "Node.js,",
-        "Express,",
-        "MongoDB,",
-        "Arduino,",
-        "ESP32-CAM,",
-        "face-api.js",
-      ],
+      tools: ["React, ","Tailwind CSS, ","Node.js, ","Express, ","MongoDB, ","Arduino, ","ESP32-CAM, ","face-api.js",],
       url: "https://smart-attendance-system-l486.onrender.com",
     },
-
     {
       name: "Flavour-Foods",
       description:
