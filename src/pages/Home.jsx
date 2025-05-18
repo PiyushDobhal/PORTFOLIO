@@ -25,7 +25,7 @@ const Home = ({ data }) => {
               Welcome to <br /> {data.name}'s Portfolio
             </h1>
             <p className="mt-4 text-lg text-amber-400 opacity-75 hover:opacity-100 transition-opacity duration-300">
-              Front-End Developer | MERN Stack Enthusiast
+              MERN Stack Developer 
             </p>
 
             {/* Logo - Hidden on Mobile */}
