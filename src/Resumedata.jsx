@@ -4,7 +4,8 @@ export const resumeData = {
   linkedin: "http://www.linkedin.com/in/piyush-dobhal-b3a757309",
   github: "https://github.com/PiyushDobhal",
   googleCloud: "https://www.cloudskillsboost.google/profile/badges",
-  resumeLink: "https://drive.google.com/file/d/1MAXzx-mwnMUHgMYCYwreydiPH01BMcj7/view?usp=sharing",
+  resumeLink:
+    "https://drive.google.com/file/d/1c4jqImySRPiK0Vwu-w4-A3S7uCYblTZ4/view?usp=drive_link",
 
   education: [
     {
@@ -38,11 +39,10 @@ export const resumeData = {
       "React.js",
       "C++",
       "Tailwind CSS",
-      "Framer Motion",
       "Redux Toolkit",
       "Express JS",
       "Node JS",
-      "MongoDB"
+      "MongoDB",
     ],
     tools: ["Visual Studio", "PyCharm", "Git", "GitHub"],
   },
@@ -62,6 +62,23 @@ export const resumeData = {
       tools: ["ReactJs, ", "TailwindCss, ", "Redux toolkit"],
       url: "https://paste-kappa.vercel.app/",
     },
+    {
+      name: "NoProxy-Smart Attendance System",
+      description:
+        "A biometric attendance system integrating fingerprint and face recognition using ESP32-CAM, Arduino, and a full-stack web dashboard. Real-time attendance sync, hardware-software integration, and user management.",
+      tools: [
+        "React,",
+        "Tailwind CSS,",
+        "Node.js,",
+        "Express,",
+        "MongoDB,",
+        "Arduino,",
+        "ESP32-CAM,",
+        "face-api.js",
+      ],
+      url: "https://smart-attendance-system-l486.onrender.com",
+    },
+
     {
       name: "Flavour-Foods",
       description:
