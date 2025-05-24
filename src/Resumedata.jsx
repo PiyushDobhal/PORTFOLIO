@@ -5,14 +5,14 @@ export const resumeData = {
   github: "https://github.com/PiyushDobhal",
   googleCloud: "https://www.cloudskillsboost.google/profile/badges",
   resumeLink:
-    "https://drive.google.com/file/d/1c4jqImySRPiK0Vwu-w4-A3S7uCYblTZ4/view?usp=drive_link",
+    "https://drive.google.com/file/d/13YRSfIXajQGOobePtR5AMKtBlSqs1NoH/view?usp=sharing",
 
   education: [
     {
       degree: "B.Tech in Electronics & Communication",
       school: "DIT University, Dehradun",
-      year: "2021-present",
-      cgpa: "7.51",
+      year: "2021-2025",
+      cgpa: "7.55",
     },
     {
       degree: "12th CBSE",
