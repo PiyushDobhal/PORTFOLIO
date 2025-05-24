@@ -5,7 +5,7 @@ export const resumeData = {
   github: "https://github.com/PiyushDobhal",
   googleCloud: "https://www.cloudskillsboost.google/profile/badges",
   resumeLink:
-    "https://drive.google.com/file/d/13YRSfIXajQGOobePtR5AMKtBlSqs1NoH/view?usp=sharing",
+    "https://drive.google.com/file/d/13YRSfIXajQGOobePtR5AMKtBlSqs1NoH/view?usp=drive_link",
 
   education: [
     {
